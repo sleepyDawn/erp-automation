@@ -54,6 +54,7 @@ module.exports = () => {
           loader: "babel-loader",
           test: /\.js$/,
           exclude: /node_modules/,
+          // include: path.resolve('./index.js')
         },
         {
           test: /\.s?css$/,

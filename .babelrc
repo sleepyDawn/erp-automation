@@ -1,0 +1,9 @@
+{
+  "presets": [      // for group of plugins
+    "@babel/env",
+    "@babel/react"
+  ],
+  "plugins": [       // for individual plugins
+    "transform-class-properties"
+  ]
+}
